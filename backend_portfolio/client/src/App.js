@@ -61,7 +61,10 @@ function App() {
               />
               <Route 
                 path="/BackEndPortfolio" 
-                exact
+                element={<LandingPage />} 
+              />
+              <Route 
+                path="/BackEndPortfolio/" 
                 element={<LandingPage />} 
               />
               <Route 
