@@ -1,10 +1,13 @@
 {
-  "name": "programming-thoughts",
+  "name": "BackEndPortfolio",
+  "homepage": "https://damonandrews.github.io/BackEndPortfolio",
   "version": "1.0.0",
   "description": "",
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
     "seed": "cd server && npm run seed",
@@ -14,10 +17,16 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "concurrently": "^5.1.0"
+    "concurrently": "^5.3.0",
+    "gh-pages": "^4.0.0"
   },
   "dependencies": {
+    "apollo-link-jwt": "^1.1.5",
+    "axios": "^1.1.2",
     "bootstrap": "^5.2.2",
-    "react-bootstrap": "^2.5.0"
+    "dotenv": "^16.0.3",
+    "gql": "^1.1.2",
+    "react-bootstrap": "^2.5.0",
+    "react-router-dom": "^6.4.2"
   }
 }

@@ -60,6 +60,11 @@ function App() {
                 element={<LandingPage />} 
               />
               <Route 
+                path="/BackEndPortfolio" 
+                exact
+                element={<LandingPage />} 
+              />
+              <Route 
                 path="/login" 
                 element={<Login />} 
               />
