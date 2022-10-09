@@ -1,6 +1,6 @@
 {
   "name": "backend_portfolio",
-  "homepage": "https://damonandrews.github.io/BackEndPortfolio",
+  "homepage": "https://damonandrews.github.io/BackEndPortfolio/",
   "version": "1.0.0",
   "description": "",
   "main": "server/server.js",

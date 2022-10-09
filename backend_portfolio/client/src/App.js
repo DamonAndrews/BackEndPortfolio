@@ -64,10 +64,6 @@ function App() {
                 element={<LandingPage />} 
               />
               <Route 
-                path="/BackEndPortfolio/" 
-                element={<LandingPage />} 
-              />
-              <Route 
                 path="/login" 
                 element={<Login />} 
               />
